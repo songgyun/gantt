@@ -27,10 +27,3 @@ jobs:
 
       - name: Package Electron App
         run: npm run dist
-
-      - name: Upload Release Artifact
-        uses: softprops/action-gh-release@v1
-        with:
-          files: dist/*.exe
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
