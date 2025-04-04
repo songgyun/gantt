@@ -26,7 +26,9 @@
       "output": "dist"
     },
     "files": [
-      "**/*"
+      "build/**/*",
+      "main.js",
+      "preload.js"
     ],
     "win": {
       "target": "nsis",
