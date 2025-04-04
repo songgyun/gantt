@@ -20,19 +20,20 @@
     "react-dom": "^18.2.0"
   },
   "build": {
-    "appId": "com.hipgantt.full",
-    "productName": "HipGanttChartFull",
-    "directories": {
-      "output": "dist"
-    },
     "files": [
       "build/**/*",
       "main.js",
       "preload.js"
     ],
+    "directories": {
+      "output": "dist"
+    },
     "win": {
       "target": "nsis",
       "icon": "assets/icon.ico"
+    },
+    "extraMetadata": {
+      "main": "main.js"
     }
   }
 }
