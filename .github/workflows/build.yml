@@ -27,3 +27,9 @@ jobs:
 
       - name: Package Electron App
         run: npm run dist
+
+      - name: Upload exe artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: gantt-chart-exe
+          path: dist/*.exe
