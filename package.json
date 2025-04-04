@@ -35,6 +35,6 @@
     "extraMetadata": {
       "main": "main.js"
     },
-    "publish": "never"
+    "publish": null
   }
 }
